@@ -17,6 +17,7 @@ build/
 
 # Jupyter
 .ipynb_checkpoints/
+study_buddy_with_search.ipynb
 
 # Editors and operating systems
 .idea/

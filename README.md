@@ -4,9 +4,9 @@ A source-aware, three-agent research assistant built with **LangGraph**, **Gemin
 search, and **Streamlit**. It turns any topic into a cited Markdown brief, reviews its own work, and
 routes problems to the agent best placed to fix them.
 
-> This repository began as `study_buddy_with_search.ipynb`, a teaching notebook with a Researcher,
-> Explainer, and Reviewer. The production version preserves that understandable workflow while
-> adding reusable modules, source URLs, evidence-aware routing, a UI, tests, CI, and deployment.
+> This project began as a teaching prototype with a Researcher, Explainer, and Reviewer. The
+> production version preserves that understandable workflow while adding reusable modules, source
+> URLs, evidence-aware routing, a UI, tests, CI, and deployment.
 
 ## Why this is more than three prompts
 
@@ -34,7 +34,6 @@ Researcher. Hard iteration limits prevent infinite loops.
 - Replaceable LLM and search dependencies
 - Offline unit and graph tests—no API key used in CI
 - Streamlit Community Cloud and Docker deployment paths
-- Original educational notebook retained for comparison
 
 ## Quick start
 
@@ -82,7 +81,6 @@ research_assistant/
 tests/              # Offline unit and workflow tests
 docs/               # Customization, project ideas, and launch post
 streamlit_app.py    # Web application
-study_buddy_with_search.ipynb  # Original learning notebook
 ```
 
 ## Test and lint
@@ -114,7 +112,7 @@ docker build -t sourcecraft-research .
 docker run --rm -p 8501:8501 -e GOOGLE_API_KEY="your-key" sourcecraft-research
 ```
 
-Never put API keys in the Dockerfile, notebook, Git history, screenshots, or deployed frontend.
+Never put API keys in source files, Git history, screenshots, or the deployed frontend.
 
 ## Customize it
 
