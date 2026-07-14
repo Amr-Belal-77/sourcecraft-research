@@ -5,7 +5,8 @@ demo online before posting.
 
 ---
 
-I turned a three-agent learning notebook into a deployable, source-aware research assistant. 🔎
+As part of **DEPI GenAI – Round 4**, I turned a three-agent learning notebook into a deployable,
+source-aware research assistant. 🔎
 
 Meet **SourceCraft Research**: enter a topic and three specialized AI agents collaborate to produce
 a cited research brief:
@@ -36,7 +37,7 @@ I also moved the project beyond the notebook with:
 
 ✅ Iteration limits and graceful failure states
 
-Demo: [DEPLOYED_APP_URL]
+Demo: https://sourcecraft-research.streamlit.app/
 
 Code: https://github.com/Amr-Belal-77/sourcecraft-research
 

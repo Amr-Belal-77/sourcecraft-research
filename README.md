@@ -1,5 +1,7 @@
 # SourceCraft Research
 
+[🚀 Try the live demo](https://sourcecraft-research.streamlit.app/)
+
 A source-aware, three-agent research assistant built with **LangGraph**, **Gemini**, DuckDuckGo
 search, and **Streamlit**. It turns any topic into a cited Markdown brief, reviews its own work, and
 routes problems to the agent best placed to fix them.
